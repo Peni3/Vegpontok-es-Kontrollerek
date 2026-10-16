@@ -1,0 +1,11 @@
+
+1. Feladat Válasz
+Az adat: A konyvek tömb (a könyvek listája).
+A három végpontkezelő: Az összes könyvet (/), a darabszámot (/darab) és az összes oldalszámot (/osszoldal) kiszolgáló útvonalak és a hozzájuk tartozó függvények.
+A szervert elindító sor: Az app.listen(...) sor.
+
+
+6. Feladat Válasz
+A /:id útvonalnak azért kell a legutolsónak lennie, mert az Express szerver fentről 
+lefelé haladva ellenőrzi az útvonalakat (route-okat), és az első olyan szabályra ugrik rá, 
+amelyik illeszkedik a beírt URL-re.
